@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "moretta-wordpress"
+version = "1.0.0"
+description = "Gestione WordPress e The Events Calendar della parrocchia"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.32.3,<3", "keyring>=25.6,<26"]
+
+[project.scripts]
+moretta = "moretta.cli:main"
+moretta-gui = "moretta.gui:main"
+
+[tool.setuptools.packages.find]
+include = ["moretta*"]

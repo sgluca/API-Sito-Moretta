@@ -1,0 +1,5 @@
+{
+  "title": "Titolo dell'articolo",
+  "content": "<!-- wp:paragraph --><p>Testo dell'articolo della parrocchia.</p><!-- /wp:paragraph -->",
+  "status": "draft"
+}

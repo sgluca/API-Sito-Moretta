@@ -1,0 +1,9 @@
+{
+  "title": "Incontro in parrocchia",
+  "description": "<p>Descrizione dell'incontro.</p>",
+  "start_date": "2026-12-01 20:30:00",
+  "end_date": "2026-12-01 22:00:00",
+  "timezone": "Europe/Rome",
+  "all_day": false,
+  "status": "draft"
+}
